@@ -1,0 +1,11 @@
+{
+  "name": "csv-manager",
+  "version": "1.0.0",
+  "description": "Un proyecto realizado para una prueba tecnica para Identidad technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samir Arroyave Charris",
+  "license": "ISC"
+}
