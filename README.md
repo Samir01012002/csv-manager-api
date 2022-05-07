@@ -38,7 +38,7 @@ Server listing on port 7000
 
 DB is connected
 
-The initial configuration is done
+{ email: 'samirarroyavecharris@identidadtech.com', password: '12345' }
 
 
 
