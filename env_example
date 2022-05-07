@@ -1,0 +1,4 @@
+SECRET_KEY = "PRUEBA_SECRET"
+EXPIRES_TIME = 86400
+PORT = 7000
+CONECTION_URL = "mongodb://localhost:27017/csvmanager"
