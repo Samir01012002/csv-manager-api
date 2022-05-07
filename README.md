@@ -40,5 +40,5 @@ DB is connected
 
 { email: 'samirarroyavecharris@identidadtech.com', password: '12345' }
 
-
+Esas son las credenciales del administrador
 
