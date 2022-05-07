@@ -59,3 +59,29 @@ module.exports.signIn = async (req, res) => {
     console.log(error);
   }
 };
+
+
+module.exports.signUpInitialConfig = async (data) => {
+  try {
+    // Getting the Request Body
+    const { username, email, password } = data.body;
+    // Creating a new User Object
+    const newUser = new User({
+      username,
+      email,
+      password: await User.encryptPassword(password),
+    });
+
+    const savedUser = await newUser.save();
+
+    console.log(
+      {
+        email: savedUser.email,
+        password: password
+      }
+    );
+
+  } catch (error) {
+    
+  }
+}
